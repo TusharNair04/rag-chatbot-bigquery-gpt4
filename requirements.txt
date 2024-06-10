@@ -1,0 +1,6 @@
+
+google-cloud-bigquery
+langchain-google-vertexai
+langchain-community
+langchain-core
+langchain-openai
