@@ -56,12 +56,6 @@ class BigQueryVectorSearchLocal(BigQueryVectorSearch):
             use_query_cache=False,
             priority=bigquery.QueryPriority.BATCH,
         )
-        # if self.distance_strategy == DistanceStrategy.EUCLIDEAN_DISTANCE:
-        #     distance_type = "EUCLIDEAN"
-        # elif self.distance_strategy == DistanceStrategy.COSINE:
-        #     distance_type = "COSINE"
-        # # Default to COSINE
-        # else:
         distance_type = "COSINE"
         if brute_force:
             options_string = ",options => '{\"use_brute_force\":true}'"
