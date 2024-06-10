@@ -52,7 +52,7 @@ class BigQueryRetriever(BaseRetriever):
             query=query
         )
 
-# Will be required if data needs to be scraped from Internet (Whirlpool's Website/Site Pages)
+# Will be required if data needs to be scraped from Internet
 
 # def ingest_vectors(url, context, truncate_all=False):
 #     loader = WebBaseLoader(url)
@@ -138,7 +138,7 @@ def search(query, filter):
 
 # Run it only when new data needs to be ingested
 
-# ingest_vectors(file_path= r"C:\Users\NAIRTS\Downloads\Financials Sample Data.csv", context= "test")
+# ingest_vectors(file_path= r"PATH_TO_YOUR_FILE", context= "test")
 
 # Context is just an identifier for the embeddings in BQ Table (Check if we need it)
 answer = search(query=input("Enter your query: "), filter={"context": "test"})
