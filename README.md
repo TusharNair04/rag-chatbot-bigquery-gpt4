@@ -1,7 +1,5 @@
 # RAG-ChatBot-BigQuery-GPT4
 
-**Description:**
-
 This project demonstrates a chatbot built using Retrieval-Augmented Generation (RAG) with Google BigQuery as the vector store and GPT-4 as the language model. It provides efficient and scalable vector search for robust similarity search and retrieval.
 
 ## Installation
