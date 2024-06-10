@@ -7,8 +7,11 @@ This project demonstrates a chatbot built using Retrieval-Augmented Generation (
 1. Clone the repository:
 ```bash
 git clone https://github.com/TusharNair04/RAG-ChatBot-BigQuery-GPT4.git
+```
+```bash
 cd RAG-ChatBot-BigQuery-GPT4
 ```
+
 2. Install the required dependencies:
 ```
 pip install -r requirements.txt
